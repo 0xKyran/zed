@@ -3,7 +3,12 @@
 ## Extentions
 
 - svelte
+- HTML
+- TOML
+- Dockerfile
+- SQL
 
 ## Themes
 
-- Catppuccino Mocha
+- Catppuccin
+- Cattppuccin Icons
