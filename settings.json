@@ -3,11 +3,27 @@
 // documentation: https://zed.dev/docs/configuring-zed
 //
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gemini-2.5-pro"
+    },
+    "version": "2"
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
+  "icon_theme": "Catppuccin Mocha",
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "ui_font_family": "Monocraft Nerd Font",
   "ui_font_size": 16,
+  "terminal": {
+    "font_family": "Monocraft Nerd Font"
+  },
+  "buffer_font_family": "Monocraft Nerd Font",
   "buffer_font_size": 16,
   "theme": {
     "mode": "system",
@@ -19,7 +35,6 @@
       "milliseconds": 1000
     }
   },
-  "auto_update": true,
   "project_panel": {
     "dock": "right"
   }
