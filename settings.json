@@ -3,7 +3,11 @@
 // documentation: https://zed.dev/docs/configuring-zed
 //
 {
-  "assistant": {
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-latest"
+    },
     "default_model": {
       "provider": "copilot_chat",
       "model": "gemini-2.5-pro"
